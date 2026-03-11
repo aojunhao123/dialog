@@ -111,7 +111,7 @@ exports[`dialog should support classNames 1`] = `
       >
         <button
           aria-label="Close"
-          class="rc-dialog-close"
+          class="rc-dialog-close custom-close"
           type="button"
         >
           <span
@@ -169,6 +169,7 @@ exports[`dialog should support styles 1`] = `
         <button
           aria-label="Close"
           class="rc-dialog-close"
+          style="color: red;"
           type="button"
         >
           <span
